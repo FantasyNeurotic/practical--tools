@@ -1,0 +1,19 @@
+{
+    "name": "it-english",
+    "description": "I need a dictionary tool to help me solve the problem of reading in IT English",
+    "main": "./index.js",
+    "scripts": {
+      "test": "echo \"Error: no test\" && exit 1"
+    },
+    "author": "bart <wujianwei1993@gmail.com",
+    "license": "MIT",
+    "bin": {
+      "itt": "./index.js"
+    },
+    "dependencies": {
+      "chalk": "^2.1.0",
+      "cheerio": "^1.0.0-rc.2",
+      "cli-spinner": "^0.2.6",
+      "request": "^2.81.0"
+    }
+}
